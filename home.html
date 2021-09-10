@@ -1,0 +1,462 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <!-- favicon link -->
+    <link rel="shortcut icon" type="image/jpg" href="images/Department logo.png" />
+    <!-- AOS link -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- swiper link -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <!-- css for home page -->
+    <link rel="stylesheet" href="style/home.css">
+    <!-- css for project number and alumni on home-page -->
+    <link rel="stylesheet" href="style/projectNumbers.css">
+    <!-- css for phone -->
+    <link rel="stylesheet" href="style/homePhone.css">
+    <!-- font link -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans&family=Playfair+Display&display=swap" rel="stylesheet">
+    <!-- font awesome link -->
+    <script src="https://kit.fontawesome.com/86fb746b51.js" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+    <!-- header section -->
+    <div class="header" id="header">
+        <div class="date-visits">
+            <div class="date" id="date"></div>
+            <div class="visits">visitors:12345</div>
+        </div>
+        <div class="logo-heading">
+            <div class="logo"><img src="images/final.png" alt=""></div>
+            <div class="heading">
+                <p class="department">Department of Industrial and Production Engineering</p>
+                <p class="dr">Dr BR Ambedkar</p>
+                <p class="nit">National Institute of Technology Jalandhar</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- navbar -->
+
+    <div class="topnav" id="topnav">
+        <div class="nav-content">
+
+            <a href="" class=" nav-item">Home</a>
+            <div class="menu-list">
+                <div class="icon cancel-btn">
+                    <i class="fas fa-times"></i>
+                </div>
+                <a href="about.html" class=" nav-item">About Us</a>
+                <a href="placement.html" class=" nav-item">Placements</a>
+                <div class="dropdown">
+                    <button class="dropbtn">Department
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content hover">
+                        <a href="https://www.nitj.ac.in/index.php/nitj_cinfo/FacultyList/9"
+                            target="_blank">Faculties</a>
+                        <a href="labs.html">Laboratories</a>
+
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">Program
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content hover">
+                        <a href="btech.html">B.Tech</a>
+                        <a href="mtech.html">M.Tech</a>
+                        <a href="phd.html">PhD</a>
+
+                    </div>
+                </div>
+                <a href="gallery.html" class="nav-item">Gallery</a>
+                <a href="contact.html" class="nav-item">Contact Us</a>
+                <a href="#footer" class="ipe nav-item" id="ipe"><i class="fas fa-angle-down"></i></a>
+
+            </div>
+            <div class="icon menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <!-- iamge carousel -->
+    <!-- Slider main container -->
+    <div class="img-carousel">
+        <div class="swiper swiper-container-banner">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide img-one">
+                    <div class="info">
+                        <p class="info-head">WHO WE ARE</p>
+                        <p class="info-para">Industrial and production engineering (IPE) is an interdisciplinary
+                            engineering discipline
+                            that includes manufacturing technology, engineering sciences, management science, and
+                            optimization of complex processes, systems, or organizations.</p>
+                    </div>
+                </div>
+                <div class="swiper-slide img-two">
+                    <div class="info">
+                        <p class="info-head">OUR VISION</p>
+                        <p class="info-para">The Department of Industrial and Production Engineering visualizes to ease
+                            human life by the
+                            way of designing integrated systems and high end techniques in the areas of Industrial,
+                            Production and Manufacturing Technology through effective teaching learning processes at the
+                            post graduate and undergraduate level and inculcate the research acumen among the students.
+                        </p>
+
+                    </div>
+
+                </div>
+                <div class="swiper-slide img-three">
+                    <div class="info">
+                        <p class="info-head">OUR MISSION</p>
+                        <p class="info-para">To impart world class knowledge in the areas of Industrial, Production and
+                            Manufacturing
+                            Technology by stimulating research and innovation. To make the students productive, flexible
+                            and customer oriented so that they can apply engineering skills to design effective systems
+                            and procedures in order to make our country competitive.</p>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+    </div>
+
+    <!-- Expertise -->
+    <div class="expertise">
+        <h3 class="content-head">OUR EXPERTISE</h3>
+        <div class="expertise-wrapper">
+            <div class="inner-card" data-aos="fade-up" data-aos-duration="1500">
+                <div class="field-icon">
+                    <p><i class="far fa-file-code"></i></p>
+                </div>
+                <div class="field-info">
+                    <h1 class="field-name">Data Structure & Algorithm</h1>
+                    <p class="field-text">
+                        A data structure is a named location that can be used to store and organize data. And, an
+                        algorithm is a collection of steps to solve a particular problem.Data structures and algorithms
+                        allow us to write efficient and optimized computer programs.</p>
+
+                </div>
+            </div>
+            <div class="inner-card" data-aos="fade-up" data-aos-duration="1500">
+                <div class="field-icon">
+                    <img src="images/icons/Data Analysis with Python.svg" alt="">
+                </div>
+                <div class="field-info">
+                    <h1 class="field-name">Data Analysis</h1>
+                    <p class="field-text">Data analysis is a process of inspecting, cleansing, transforming, and
+                        modelling data with the goal of discovering useful information, informing conclusions, and
+                        supporting decision-making</p>
+
+                </div>
+            </div>
+            <div class="inner-card" data-aos="fade-up" data-aos-duration="1500">
+                <div class="field-icon">
+                    <img src="images/icons/Operations Management.svg" alt="">
+                </div>
+                <div class="field-info">
+                    <h1 class="field-name">Operations Management</h1>
+                    <p class="field-text">Operations management is an area of management concerned with designing and
+                        controlling the process of production and redesigning business operations in the production of
+                        goods or services.</p>
+
+                </div>
+            </div>
+            <div class="inner-card" data-aos="fade-up" data-aos-duration="1500">
+                <div class="field-icon">
+                    <img src="images/icons/Project Management.svg" alt="">
+                </div>
+                <div class="field-info">
+                    <h1 class="field-name">Project Management</h1>
+                    <p class="field-text">Project management is the process of leading the work of a team to achieve all
+                        project goals within the given constraints. </p>
+
+                </div>
+            </div>
+            <div class="inner-card" data-aos="fade-up" data-aos-duration="1500">
+                <div class="field-icon">
+                    <img src="images/icons/Six Sigma.svg" alt="">
+                </div>
+                <div class="field-info">
+                    <h1 class="field-name">Lean Six Sigma</h1>
+                    <p class="field-text">Lean Six Sigma is a method that relies on a collaborative team effort to
+                        improve performance by systematically removing waste and reducing variation.</p>
+
+                </div>
+            </div>
+            <div class="inner-card" data-aos="fade-up" data-aos-duration="1500">
+                <div class="field-icon">
+                    <img src="images/icons/Statistics & Probability.svg" alt="">
+                </div>
+                <div class="field-info">
+                    <h1 class="field-name">Statistics & Probability</h1>
+                    <p class="field-text">Probability and statistics, the branches of mathematics concerned with the
+                        laws governing random events, including the collection, analysis, interpretation, and display of
+                        numerical data.</p>
+
+                </div>
+            </div>
+            <div class="inner-card" data-aos="fade-up" data-aos-duration="1500">
+                <div class="field-icon">
+                    <img src="images/icons/Supply Chain Management.svg" alt="">
+                </div>
+                <div class="field-info">
+                    <h1 class="field-name">Supply Chain Management</h1>
+                    <p class="field-text">Supply chain management is the management of the flow of goods and services
+                        and includes all processes that transform raw materials into final products. </p>
+
+                </div>
+            </div>
+            <div class="inner-card" data-aos="fade-up" data-aos-duration="1500">
+                <div class="field-icon">
+                    <img src="images/icons/Total Quality Control.svg" alt="">
+                </div>
+                <div class="field-info">
+                    <h1 class="field-name">Total Quality Control</h1>
+                    <p class="field-text">Total quality control is a broad-ranging set of techniques that are employed
+                        to minimize errors throughout an organization. By doing so, an organization can greatly improve
+                        both its profits and customer satisfaction. </p>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- Numbers -->
+    <div class="number-wrapper">
+        <div class="publications" data-aos="zoom-in" data-aos-duration="1000">
+            <p class="num-icon"><i class="fas fa-book-open nicon"></i></p>
+            <span class="number count">10</span><span class="number">+</span>
+            <p class="num-title">publications</p>
+        </div>
+        <div class="students" data-aos="zoom-in" data-aos-duration="1000">
+            <p class="num-icon"><i class="fas fa-users nicon"></i></p>
+            <span class="number count">500</span><span class="number">+</span>
+            <p class="num-title">students</p>
+        </div>
+        <div class="placements" data-aos="zoom-in" data-aos-duration="1000">
+            <p class="num-icon"><i class="fas fa-graduation-cap nicon"></i></p>
+            <span class="number count">81</span><span class="number">%</span>
+            <p class="num-title">placements</p>
+        </div>
+        <div class="projects" data-aos="zoom-in" data-aos-duration="1000">
+            <p class="num-icons"><i class="fas fa-gift nicon"></i></p>
+            <span class="number count">8</span><span class="number">+</span>
+            <p class="num-title">projects</p>
+        </div>
+    </div>
+
+
+
+
+    <!-- Alumin -->
+    <div class="alumni">
+        <h3 class="content-head">OUR ALUMNI</h3>
+
+        <div class="swiper mySwiper" id="mySwiper" data-aos="zoom-in-up" data-aos-duration="1500">
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide alumni-slide"
+                    style="justify-content: center;flex-direction: column;align-items: center;">
+                    <img src="images//alumni.jpg" />
+                    <div class="alumni-details">
+                        <h3 class="alumni-name">Anindya Ghose</h3>
+                        <h4 class="alumin-pos">Director: NYU Stern School of
+                            Business</h4>
+                        <div class="alumni-links">
+                            <a href="https://www.linkedin.com/in/anindya-ghose/" class="social-alum linked"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="https://twitter.com/aghose?lang=en" class="social-alum twit"><i class="fab fa-twitter "></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide alumni-slide"
+                    style="justify-content: center;flex-direction: column;align-items: center;">
+                    <img src="images/alumni1.jpg" />
+                    <div class="alumni-details">
+                        <h3 class="alumni-name">Upasana Taku </h3>
+                        <h4 class="alumin-pos">Cofounder & Director: MobiKwik</h4>
+                        <div class="alumni-links">
+                            <a href="https://www.linkedin.com/in/upasana/?originalSubdomain=in" class="social-alum linked"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="https://twitter.com/UpasanaTaku" class="social-alum twit"><i class="fab fa-twitter "></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide alumni-slide"
+                    style="justify-content: center; flex-direction: column;align-items: center;">
+                    <img src="images/alum2.jpg" />
+                    <div class="alumni-details">
+                        <h3 class="alumni-name">Ali Hyder Rizvi</h3>
+                        <h4 class="alumin-pos">Director: Morgan Stanley</h4>
+                        <div class="alumni-links">
+                            <a href="" class="social-alum linked disable"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="" class="social-alum twit disable"><i class="fab fa-twitter "></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide alumni-slide"
+                    style="justify-content: center;flex-direction: column;align-items: center;">
+                    <img src="images/alum3.jpg" />
+                    <div class="alumni-details">
+                        <h3 class="alumni-name">Ajith Mohan Karimpana</h3>
+                        <h4 class="alumin-pos">CEO: FURLENCO</h4>
+                        <div class="alumni-links">
+                            <a href="https://www.linkedin.com/in/ajithkarimpana/?originalSubdomain=in" class="social-alum linked"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="https://twitter.com/ajithkarimpana?lang=en" class="social-alum twit"><i class="fab fa-twitter "></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide alumni-slide"
+                    style="justify-content: center;flex-direction: column;align-items: center;">
+                    <img src="images/alum4.jpg" />
+                    <div class="alumni-details">
+                        <h3 class="alumni-name">Amit Boni</h3>
+                        <h4 class="alumin-pos">Global Vice President: Smartron</h4>
+                        <div class="alumni-links">
+                            <a href="https://www.linkedin.com/in/amitboni/?originalSubdomain=in"
+                                class="social-alum linked"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="https://twitter.com/AmitBoni" class="social-alum twit"><i
+                                    class="fab fa-twitter "></i></a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+
+    <!-- projects -->
+    <div class="project">
+        <h3 class="content-head">OUR PROJECTS</h3>
+        <div class="project-wrapper">
+          <div class="pro-card" data-aos="fade-up" data-aos-duration="1500">
+              <div class="pro-num">1</div>
+              <div class="pro-text">
+                  <p>Experimental investigation of thermal efficiency of flat plate collector using nanofluid.</p>
+              </div>
+          </div>  
+           
+          <div class="pro-card" data-aos="fade-up" data-aos-duration="1500">
+              <div class="pro-num">2</div>
+              <div class="pro-text">
+                  <p>Investigation of Biodynamic Responses Among Indian Tractor Operators Exposed to Whole Body Vibration.</p>
+              </div>
+          </div>  
+          <div class="pro-card" data-aos="fade-up" data-aos-duration="1500">
+              <div class="pro-num">3</div>
+              <div class="pro-text">
+                  <p>Development and Evaluation of Durable Micro-Textured Superhydrophobic Surfaces.</p>
+              </div>
+          </div>  
+          <div class="pro-card" data-aos="fade-up" data-aos-duration="1500">
+              <div class="pro-num">4</div>
+              <div class="pro-text">
+                  <p>Development and Investigation into rotary mode ultrasonic-assisted abrasion process for biomaterials</p>
+              </div>
+          </div>  
+           
+           
+        </div>
+    </div>
+    <!-- footer -->
+    <div class="footer-wrapper" id="footer">
+        <div class="footer">
+            <div class="footer-one">
+                <div class="foo-logo">
+                    <img src="./images/final.png" alt="">
+                </div>
+                <div class="college-name">
+                    <p>Dr.B.R.Ambedkar National</p>
+                    <p>Institute of Technology, Jalandhar</p>
+                </div>
+                <div class="address">
+                    <p> G.T. Road, Amritsar Bypass, Jalandhar</p>
+                    <p>(Punjab),India-144011</p>
+                </div>
+                <div class="social-icons">
+                    <a href="" class="social linked"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="" class="social twit"><i class="fab fa-twitter "></i></a>
+                    <a href="" class="social face"><i class="fab fa-facebook-f"></i></a>
+
+                </div>
+            </div>
+            <div class="footer-two">
+                <div class="quickLinks">
+                    <p class="quick">Quick Links</p>
+                    <p class="underline"></p>
+                    <a href="Newsletter.pdf">Newsletter</a>
+                    <a href="https://www.nitj.ac.in/index.php/nitj_cinfo/pages/31" target="_blank">E-Library</a>
+                    <a href="placement.html">Placements</a>
+                    <a href="download.html">Downloads</a>
+                    <a href="board.html">Board of Studies</a>
+                </div>
+                <div class="other-links">
+                    <p class="useful">Other Useful Links</p>
+                    <p class="underline"></p>
+                    <a href="https://www.education.gov.in/hi" target="_blank">MHRD</a>
+                    <a href="https://www.vlab.co.in/" target="_blank">Virtual Labs</a>
+                    <a href="https://sakshat.ac.in/" target="_blank">Sakshat</a>
+                    <a href="http://www.vcr.nic.in/" target="_blank">Virtual Classrooms</a>
+                    <a href="https://goidirectory.gov.in/" target="_blank">Important Institutes of India</a>
+                </div>
+            </div>
+            <div class="footer-three">
+                <div class="developed">
+                    <p> Developed By:</p>
+                    <p class="underline"></p>
+                    <a href="http://linkedin.com/in/aakanksha-sehgal-3840951b6" target="_blank">Aakanksha Sehgal </a>
+                    <a href="https://www.linkedin.com/in/avinesh-p-295643166/" target="_blank">Avinesh Pandey </a>
+                    <a href="https://www.linkedin.com/in/ishaans909/" target="_blank">Ishaan Sharma </a>
+                    <a href="https://www.linkedin.com/in/ruchi-ray-a3ab0b1ba/" target="_blank"> Ruchi Ray </a>
+                    <a href="https://www.linkedin.com/in/shivanshu-singh-182152197/" target="_blank">Shivanshu </a>
+                    <a href="https://www.linkedin.com/in/syed-aareez-63414b197" target="_blank"> Syed Aareez </a>
+                    <a href="https://www.linkedin.com/in/uttam-kumar-sharma-5980991a5" target="_blank"> Uttam Sharma
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="last">
+        <div class="copyright">Copyright&#169;2021 | IPE Department</div>
+        <a href="#header" id="go-to-top"><i class="fas fa-angle-up"></i></a>
+
+    </div>
+
+    <!-- AOS script -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <!-- swiper script -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- script -->
+    <script src="index.js"></script>
+
+</body>
+
+</html>
