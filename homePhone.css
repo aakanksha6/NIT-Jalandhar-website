@@ -1,0 +1,329 @@
+@media screen and (max-width: 1500px) {
+    /* expertise */
+    .inner-card {
+      width: 30%;
+    }
+    #mySwiper{
+       width: 100%;
+     }
+     /* projects */
+    .project-wrapper{
+      width: 100%;
+    }
+    
+    /* expertise */
+    .inner-card {
+      width: 40%;
+    }
+  }
+  
+  @media screen and (max-width: 1100px) {
+   
+    .project-wrapper{
+      justify-content: center;
+    }
+    .pro-one,
+    .pro-two,
+    .pro-three {
+      margin: 30px 50px;
+    }
+    
+  }
+  
+  @media screen and (max-width: 1060px) {
+    
+    /* navbar responsive */
+    body.disabled {
+      overflow: hidden;
+    }
+    .topnav .icon {
+      display: block;
+    }
+    .icon.hide {
+      display: none;
+    }
+    .icon.cancel-btn {
+      position: absolute;
+      top: 0;
+      right: 10%;
+    }
+    .nav-content {
+      justify-content: space-between;
+    }
+    .nav-content .menu-list {
+      position: fixed;
+      height: 100vh;
+      min-height: 500px;
+      width: 100%;
+      max-width: 400px;
+      right: -100%;
+      top: 0px;
+      display: flex;
+      flex-direction: column;
+      padding: 40px 0;
+      text-align: center;
+      background: #3a1f3b;
+      transition: all 0.5s ease;
+      z-index: 4;
+    }
+    .nav-content.show .menu-list {
+      right: 0%;
+    }
+    .nav-content .menu-list div {
+      margin-right: -100%;
+      transition: 0.9s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    }
+    .nav-content.show .menu-list div {
+      margin-right: 0px;
+    }
+    .nav-content .menu-list a {
+      margin-right: -100%;
+      transition: 0.9s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    }
+    .nav-content.show .menu-list a {
+      margin-right: 0px;
+    }
+  }
+  @media screen and (max-width: 1000px) {
+   
+    .department,
+    .nit {
+      font-size: 1.7rem;
+    }
+    /* navbar */
+    .clicked {
+      z-index: 4;
+      opacity: 1;
+      transform: scale(1);
+    }
+    /* carousel */
+    .info {
+      width: 80%;
+      justify-content: center;
+      transform: translateX(0);
+    }
+    .swiper-slide {
+      justify-content: center;
+    }
+    .copyright{
+      margin-top: 10px;
+    }
+  }
+  
+  @media screen and (max-width: 900px) {
+    
+    /* footer */
+    .footer {
+      flex-direction: column;
+    }
+    .footer-one,
+    .footer-two {
+      margin-bottom: 30px;
+      margin-right: 0;
+    }
+    /* project */
+    .project-wrapper{
+      width: 95%;
+     
+    }
+    .pro-one,
+    .pro-two,
+    .pro-three {
+      margin: 30px 30px;
+    }
+    
+    /* numbers */
+    .number-wrapper {
+      height: fit-content;
+    }
+  }
+  
+  @media screen and (max-width: 805px) {
+    
+    .department,
+    .nit {
+      font-size: 1.5rem;
+    }
+    /* projects */
+    .content-head {
+      margin-bottom: 15px;
+    }
+    .pro-one,
+    .pro-two,
+    .pro-three {
+      margin: 30px 15px;
+    }
+    /* expertise */
+    .inner-card {
+      width: 50%;
+    }
+  }
+  @media screen and (max-width: 665px) {
+   
+    .logo-heading {
+      flex-direction: column;
+      /* text-align: center; */
+      align-items: flex-start;
+   
+      padding-right: 0px;
+    }
+    .department,
+    .nit {
+      font-size: 1.3rem;
+    }
+    .heading .dr {
+      font-size: 0.9rem;
+    }
+    .date-visits {
+      width: 100%;
+    }
+    /* image carousel */
+    .swiper {
+      width: 100%;
+      height: 400px;
+    }
+    .swiper-slide img {
+      width: 100%;
+      height: 400px;
+    }
+    .swiper-button-prev,
+    .swiper-button-next {
+      padding: 15px;
+    }
+    .info {
+      width: 100%;
+    }
+    .img-carousel {
+      margin-left: 0;
+      margin-right: 0;
+    }
+    /* projects */
+    .content-head {
+      margin-bottom: 5px;
+    }
+    .project-wrapper{
+      width: 100%;
+    }
+    
+    /* expertise */
+    .inner-card{
+      width: 60%;
+    }
+    /* alumni */
+    #mySwiper{
+      margin-top: 30px;
+    }
+    
+  }
+  
+  @media screen and (max-width: 566px) {
+   
+    /* img carousel */
+    .info-head {
+      font-size: 20px;
+    }
+    .info-para {
+      font-size: 15px;
+    }
+    /* expertise */
+    .inner-card{
+      width: 70%;
+    }
+    .field-title{
+      font-size: 20px;
+    }
+    .teams,.developed{
+     
+      align-items: center;
+      justify-content: center;
+    }
+    .teams{
+      padding: 0px 10px;
+    }
+  }
+  @media screen and (max-width: 435px) {
+    .department,
+    .nit {
+      font-size: 16px;
+    }
+   
+    /* footer */
+    .footer-two {
+      flex-direction: column;
+    }
+    .quickLinks {
+      border-left: none;
+      padding-left: 0px;
+      margin-right: 0px;
+      margin-bottom: 10px;
+    }
+    .other-links {
+      border-right: none;
+      padding-right: 0px;
+    }
+    /* numbers */
+    .nicon {
+      font-size: 20px;
+    }
+    .number {
+      font-size: 30px;
+    }
+    .num-title {
+      font-size: 16px;
+    }
+    /* projects */
+    
+    /* expertise */
+    .inner-card{
+      width: 85%;
+      margin: 20px 0px;
+    }
+  }
+  @media screen and (max-width: 400px) {
+    /* image carousel */
+  
+    .info-para {
+      line-height: 120%;
+    }
+    .swiper {
+      height: 350px;
+    }
+    .swiper-slide img {
+      height: 350px;
+    }
+    
+    .content-head {
+      font-size: 30px;
+    }
+    .alumni{
+      margin: 20px 0px;
+    }
+    .expertise{
+      margin: 60px 0px 0px 0px;
+    }
+    .expertise-wrapper{
+      margin: 20px 0px 20px 0px;
+    }
+   
+  }
+  @media screen and (max-width: 350px) {
+   
+    /* project */
+    .pro-one,
+    .pro-two,
+    .pro-three {
+      margin: 30px 10px;
+    }
+    .project{
+      margin: 40px 0px 4px 0px;
+    }
+    .project-wrapper{
+      margin-top: 0px;
+    }
+    /* expertise */
+    .inner-card{
+      width: 95%;
+    }
+    
+  }
+  
